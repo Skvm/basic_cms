@@ -4,59 +4,67 @@
 }
 
 body{
-	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-family:'Source Sans Pro', sans-serif;
 	text-align:center;
 }
 
 #wrapper{
-	background-color:;
-	font-size:10pt;
-	min-height:400px;
-	width:800pt;
-	text-align:center;
-	margin:0 auto;
+  width: 1000px;
+  min-height: 500px;
+  margin: 0em auto;
+  font-size: 13px;
+  text-align: center;
 }
 
-#post{
-	border:2px solid red;
-	width:90%;
-	min-height:300px;
-	margin:0.8em auto;
-	text-align:left;
-	background-color:white;
-	overflow:hidden;
-	position:relative;
+#post
+{
+  border: 3px solid #2C3E50;
+  width: 900px;
+  min-height: 300px;
+  margin: 1em auto;
+  text-align: justify;
+  background: #EAF1F1;
+  overflow: hidden;
+  position: relative;
 }
 
-#posttext{
-	padding:20px;
+#posttext
+{
+  padding: 20px;
 }
 
-#bar{
-	background-color:grey;
-	color:white;
-	height:25px;
-	font-size:20px;
+#posttext p
+{
+  padding: 5px;
 }
 
-#bar #author{
-	float:right;
-	padding:5px;
-	font-size:15px;
+
+#bar
+{
+  background: #2C3E50;
+  color: #FFFFFF;
+  height: 25px;
+  font-size: 15px;
 }
 
-#lowbar{
-	background-color:grey;
-	color:white;
-	height:25px;
-	font-size:20px;
-	position:absolute;
-	bottom:0;
-	width:100%;
+#bar #author
+{
+  float: right;
+  padding: 5px;
 }
 
-#lowbar #date{
-	color:red;
-	font-size:20px;
-	font-style:italic;
+#lowbar
+{
+  background: #2C3E50;
+  color: #FFFFFF;
+  height: 25px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#lowbar #date
+{
+  font-style: italic;
 }

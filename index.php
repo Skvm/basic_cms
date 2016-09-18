@@ -6,6 +6,8 @@ include "connect.php";
 <head>
 <title>stuff</title>
 <link rel="stylesheet" type="text/css" href="instyle.css" />
+<link href=" https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
 </head>
 
 <body>
@@ -41,7 +43,9 @@ echo '</span>';
 echo '</div>';
 
 echo '<div id="posttext">';
+echo '<p>';
 echo $posts_row['content'];
+echo '</p>';
 echo '</div>';
 
 echo '<div id="lowbar">';
