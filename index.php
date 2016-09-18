@@ -71,15 +71,14 @@ echo '</div>';
 
 
 
+if(isset($_SESSION['signed_in']) && $_SESSION['signed_in'] == true){
+echo '<h2>Post:</h2><br />';
+echo '<form method="post" action="post.php">';
+echo '<textarea name="content" style="width:100%; height:100px;"></textarea><br /><br />';
+echo '<input type="submit" value="Submit reply" />';
+echo '</form>';
+}
 ?>
-
-<tr><td colspan="2"><h2>Reply:</h2><br />
-<form method="post" action="post.php">
-						<textarea name="content" style="width:100%; height:100px;"></textarea><br /><br />
-						<input type="submit" value="Submit reply" />
-					</form></td></tr>
-
-
 </div>
 </body>
 
