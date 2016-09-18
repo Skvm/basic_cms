@@ -1,0 +1,62 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+
+#wrapper{
+	background-color:;
+	font-size:10pt;
+	min-height:400px;
+	width:800pt;
+	text-align:center;
+	margin:0 auto;
+}
+
+#post{
+	border:2px solid red;
+	width:90%;
+	min-height:300px;
+	margin:0.8em auto;
+	text-align:left;
+	background-color:white;
+	overflow:hidden;
+	position:relative;
+}
+
+#posttext{
+	padding:20px;
+}
+
+#bar{
+	background-color:grey;
+	color:white;
+	height:25px;
+	font-size:20px;
+}
+
+#bar #author{
+	float:right;
+	padding:5px;
+	font-size:15px;
+}
+
+#lowbar{
+	background-color:grey;
+	color:white;
+	height:25px;
+	font-size:20px;
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+
+#lowbar #date{
+	color:red;
+	font-size:20px;
+	font-style:italic;
+}
