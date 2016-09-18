@@ -11,21 +11,6 @@ include "connect.php";
 <body>
 
 <div id="wrapper">
-	<div id="post">
-		<div id="bar">
-			<span id="author">Posted by Mike</span>
-		</div>
-	<div id="posttext">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod maximus congue. Fusce luctus finibus neque eget sagittis.
-		Donec a aliquet dolor. Quisque ac vulputate velit, vitae egestas urna. In fringilla eget libero non pulvinar. Nullam vestibulum lectus et aliquet feugiat.
-		Praesent quam orci, dignissim a urna in, condimentum cursus turpis. Nam ut placerat elit. Aenean quis consectetur ipsum. 
-		Vivamus justo urna, suscipit at posuere et, rutrum eget massa. Quisque convallis velit ut pharetra aliquet. Donec ac diam sem. 
-		Mauris lectus nibh, tempus quis imperdiet ac, vestibulum nec ante. Curabitur quis scelerisque dolor. 
-	</div>
-	<div id="lowbar">
-		<span id="date">01/01/91</span>
-	</div>
-	</div>
 
 <?php
 $posts_sql = "SELECT
