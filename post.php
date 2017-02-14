@@ -19,7 +19,7 @@ else
 						  author) 
 				VALUES ('" . nl2br(htmlspecialchars($_POST['content'])) . "',
 						NOW(),
-						'cool kid'";
+						'USER'";
 						
 		$result = mysql_query($sql);
 						
